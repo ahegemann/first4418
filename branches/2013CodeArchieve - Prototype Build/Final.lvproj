@@ -104,7 +104,6 @@ KeepAliveTimeout 60
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
-			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
@@ -116,6 +115,9 @@ KeepAliveTimeout 60
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="buttonTest.vi" Type="VI" URL="../../buttonTest.vi"/>
+		<Item Name="Test1.vi" Type="VI" URL="../../FinalRobotCodeV2.0WithTests/Test1.vi"/>
+		<Item Name="Test2.vi" Type="VI" URL="../../FinalRobotCodeV2.0WithTests/Test2.vi"/>
+		<Item Name="Test3.vi" Type="VI" URL="../../FinalRobotCodeV2.0WithTests/Test3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
@@ -705,9 +707,12 @@ KeepAliveTimeout 60
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
+				<Item Name="WPI_RobotDriveTankDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveTankDrive.vi"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="WPI_RobotDriveTankDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveTankDrive.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -731,6 +736,7 @@ KeepAliveTimeout 60
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
