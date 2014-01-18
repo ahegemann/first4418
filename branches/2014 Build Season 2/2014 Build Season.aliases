@@ -1,0 +1,10 @@
+[My Computer]
+<<<<<<< .mine
+My Computer = "192.168.1.138"
+=======
+My Computer = "10.44.18.9"
+>>>>>>> .r40
+
+[RT CompactRIO Target]
+RT CompactRIO Target = "10.44.18.2"
+
