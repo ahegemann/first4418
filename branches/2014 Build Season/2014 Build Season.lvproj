@@ -125,10 +125,10 @@ DirectoryIndex index.htm
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder"/>
+		<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="USETHISTORUNMOTORSFORDRIVE.vi" Type="VI" URL="../USETHISTORUNMOTORSFORDRIVE.vi"/>
 		<Item Name="2014 Target Detection.vi" Type="VI" URL="../2014 Target Detection.vi"/>
-		<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
