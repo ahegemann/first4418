@@ -128,6 +128,7 @@ DirectoryIndex index.htm
 		<Item Name="USETHISTORUNMOTORSFORDRIVE.vi" Type="VI" URL="../USETHISTORUNMOTORSFORDRIVE.vi"/>
 		<Item Name="2014 Target Detection.vi" Type="VI" URL="../2014 Target Detection.vi"/>
 		<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+		<Item Name="PIDINIT.vi" Type="VI" URL="../PIDINIT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -607,7 +608,6 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PIDINIT.vi" Type="VI" URL="../PIDINIT.vi"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
