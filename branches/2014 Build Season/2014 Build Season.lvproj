@@ -597,20 +597,6 @@ DirectoryIndex index.htm
 				<Item Name="WPI_DigitalModuleDIOAllocator.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleDIOAllocator.vi"/>
 				<Item Name="WPI_DigitalModuleValidateDIOChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleValidateDIOChannel.vi"/>
 				<Item Name="WPI_DigitalInputOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputOpen.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
-				<Item Name="Refnum in Hex str.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/ProbeSupport.llb/Refnum in Hex str.vi"/>
-				<Item Name="Num to Bold Hex Str.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/ProbeSupport.llb/Num to Bold Hex Str.vi"/>
-				<Item Name="Refnum Num Not A Refnum Str.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/ProbeSupport.llb/Refnum Num Not A Refnum Str.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Bold Particular String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Bold Particular String.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -624,9 +610,6 @@ DirectoryIndex index.htm
 			<Item Name="Process Image for Target GrayScale.vi" Type="VI" URL="../Process Image for Target GrayScale.vi"/>
 			<Item Name="TargetType.ctl" Type="VI" URL="../2014 Target Detection/TargetType.ctl"/>
 			<Item Name="Calibration Helper.vi" Type="VI" URL="../2014 Target Detection/Calibration Helper.vi"/>
-			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../2014 Target Detection/Sorted Particle Report.vi"/>
-			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../2014 Target Detection/Aspect Ratio Score.vi"/>
-			<Item Name="Rectangularity Score.vi" Type="VI" URL="../2014 Target Detection/Rectangularity Score.vi"/>
 			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../2014 Target Detection/Score and Rank Target Objects.vi"/>
 			<Item Name="Separate Particles.vi" Type="VI" URL="../2014 Target Detection/Separate Particles.vi"/>
 			<Item Name="Rank HV combos.vi" Type="VI" URL="../2014 Target Detection/Rank HV combos.vi"/>
@@ -634,6 +617,19 @@ DirectoryIndex index.htm
 			<Item Name="Compute Target Distances.vi" Type="VI" URL="../2014 Target Detection/Compute Target Distances.vi"/>
 			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../2014 Target Detection/Compute DistanceToTarget.vi"/>
 			<Item Name="Normalize Path.vi" Type="VI" URL="../2014 Target Detection/Normalize Path.vi"/>
+			<Item Name="2014 Target Detection.vi" Type="VI" URL="../../Robert Vision/2014 Target Detection.vi"/>
+			<Item Name="TargetType.ctl" Type="VI" URL="../../Robert Vision/TargetType.ctl"/>
+			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../Robert Vision/Sorted Particle Report.vi"/>
+			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../Robert Vision/Aspect Ratio Score.vi"/>
+			<Item Name="Rectangularity Score.vi" Type="VI" URL="../../Robert Vision/Rectangularity Score.vi"/>
+			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../../Robert Vision/Score and Rank Target Objects.vi"/>
+			<Item Name="Separate Particles.vi" Type="VI" URL="../../Robert Vision/Separate Particles.vi"/>
+			<Item Name="Rank HV combos.vi" Type="VI" URL="../../Robert Vision/Rank HV combos.vi"/>
+			<Item Name="Label Targets.vi" Type="VI" URL="../../Robert Vision/Label Targets.vi"/>
+			<Item Name="Compute Target Distances.vi" Type="VI" URL="../../Robert Vision/Compute Target Distances.vi"/>
+			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../../Robert Vision/Compute DistanceToTarget.vi"/>
+			<Item Name="Calibration Helper.vi" Type="VI" URL="../../Robert Vision/Calibration Helper.vi"/>
+			<Item Name="Normalize Path.vi" Type="VI" URL="../../Robert Vision/Normalize Path.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
