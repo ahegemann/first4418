@@ -127,9 +127,11 @@ DirectoryIndex index.htm
 		<Item Name="Support Code" Type="Folder"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="2014 Target Detection.vi" Type="VI" URL="../2014 Target Detection.vi"/>
-		<Item Name="USETHISTORUNMOTORSFORDRIVE.vi" Type="VI" URL="../USETHISTORUNMOTORSFORDRIVE.vi"/>
+		<Item Name="arcadedrive.vi" Type="VI" URL="../arcadedrive.vi"/>
+		<Item Name="tankdrive.vi" Type="VI" URL="../tankdrive.vi"/>
 		<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-		<Item Name="PIDINIT.vi" Type="VI" URL="../PIDINIT.vi"/>
+		<Item Name="distancepidinit.vi" Type="VI" URL="../distancepidinit.vi"/>
+		<Item Name="anglepidinit.vi" Type="VI" URL="../anglepidinit.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -663,6 +665,8 @@ DirectoryIndex index.htm
 				<Item Name="WPI_RelayRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayRefNum Registry Set.vi"/>
 				<Item Name="WPI_DigitalInputRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Get.vi"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="WPI_CameraWait for Raw Image String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraWait for Raw Image String.vi"/>
+				<Item Name="WPI_CameraDecodeJPEGString.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraDecodeJPEGString.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
