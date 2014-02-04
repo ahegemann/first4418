@@ -44,7 +44,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -130,6 +129,7 @@ DirectoryIndex index.htm
 		<Item Name="USETHISTORUNMOTORSFORDRIVE.vi" Type="VI" URL="../USETHISTORUNMOTORSFORDRIVE.vi"/>
 		<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		<Item Name="PIDINIT.vi" Type="VI" URL="../PIDINIT.vi"/>
+		<Item Name="Score Particles.vi" Type="VI" URL="../Last Year&apos;s Vision/Robot Main Folder/Score Particles.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -597,6 +597,7 @@ DirectoryIndex index.htm
 				<Item Name="WPI_DigitalModuleDIOAllocator.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleDIOAllocator.vi"/>
 				<Item Name="WPI_DigitalModuleValidateDIOChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleValidateDIOChannel.vi"/>
 				<Item Name="WPI_DigitalInputOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputOpen.vi"/>
+				<Item Name="WPI_CameraSet Color Enable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSet Color Enable.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -608,16 +609,10 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Process Image for Target GrayScale.vi" Type="VI" URL="../Process Image for Target GrayScale.vi"/>
-			<Item Name="TargetType.ctl" Type="VI" URL="../2014 Target Detection/TargetType.ctl"/>
 			<Item Name="Calibration Helper.vi" Type="VI" URL="../2014 Target Detection/Calibration Helper.vi"/>
-			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../2014 Target Detection/Score and Rank Target Objects.vi"/>
-			<Item Name="Separate Particles.vi" Type="VI" URL="../2014 Target Detection/Separate Particles.vi"/>
-			<Item Name="Rank HV combos.vi" Type="VI" URL="../2014 Target Detection/Rank HV combos.vi"/>
-			<Item Name="Label Targets.vi" Type="VI" URL="../2014 Target Detection/Label Targets.vi"/>
 			<Item Name="Compute Target Distances.vi" Type="VI" URL="../2014 Target Detection/Compute Target Distances.vi"/>
 			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../2014 Target Detection/Compute DistanceToTarget.vi"/>
 			<Item Name="Normalize Path.vi" Type="VI" URL="../2014 Target Detection/Normalize Path.vi"/>
-			<Item Name="2014 Target Detection.vi" Type="VI" URL="../../Robert Vision/2014 Target Detection.vi"/>
 			<Item Name="TargetType.ctl" Type="VI" URL="../../Robert Vision/TargetType.ctl"/>
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../Robert Vision/Sorted Particle Report.vi"/>
 			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../Robert Vision/Aspect Ratio Score.vi"/>
@@ -626,14 +621,10 @@ DirectoryIndex index.htm
 			<Item Name="Separate Particles.vi" Type="VI" URL="../../Robert Vision/Separate Particles.vi"/>
 			<Item Name="Rank HV combos.vi" Type="VI" URL="../../Robert Vision/Rank HV combos.vi"/>
 			<Item Name="Label Targets.vi" Type="VI" URL="../../Robert Vision/Label Targets.vi"/>
-			<Item Name="Compute Target Distances.vi" Type="VI" URL="../../Robert Vision/Compute Target Distances.vi"/>
-			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../../Robert Vision/Compute DistanceToTarget.vi"/>
-			<Item Name="Calibration Helper.vi" Type="VI" URL="../../Robert Vision/Calibration Helper.vi"/>
-			<Item Name="Normalize Path.vi" Type="VI" URL="../../Robert Vision/Normalize Path.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="Compute Distance.vi" Type="VI" URL="../Last Year&apos;s Vision/Robot Main Folder/Compute Distance.vi"/>
+			<Item Name="Compute Angle.vi" Type="VI" URL="../Last Year&apos;s Vision/Robot Main Folder/Compute Angle.vi"/>
+			<Item Name="Compute HSL Color Ranges.vi" Type="VI" URL="../Last Year&apos;s Vision/Robot Main Folder/Compute HSL Color Ranges.vi"/>
+			<Item Name="Normalized Range Compare.vi" Type="VI" URL="../Last Year&apos;s Vision/Robot Main Folder/Normalized Range Compare.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
