@@ -44,7 +44,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -132,10 +131,12 @@ DirectoryIndex index.htm
 		<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		<Item Name="anglepidinit.vi" Type="VI" URL="../anglepidinit.vi"/>
 		<Item Name="distancepidinit.vi" Type="VI" URL="../distancepidinit.vi"/>
-		<Item Name="Global 1.vi" Type="VI" URL="../Double Stick Dash 2/Global 1.vi"/>
-		<Item Name="Global 2.vi" Type="VI" URL="../Double Stick Dash 2/Global 2.vi"/>
-		<Item Name="Global 4.vi" Type="VI" URL="../Double Stick Dash 2/Global 4.vi"/>
+		<Item Name="Global 1.vi" Type="VI" URL="../Global 1.vi"/>
+		<Item Name="Global 2.vi" Type="VI" URL="../Global 2.vi"/>
+		<Item Name="Global 4.vi" Type="VI" URL="../Global 4.vi"/>
 		<Item Name="MechanismPID.vi" Type="VI" URL="../MechanismPID.vi"/>
+		<Item Name="grabberpidinit.vi" Type="VI" URL="../grabberpidinit.vi"/>
+		<Item Name="grabberpidspeed.vi" Type="VI" URL="../grabberpidspeed.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -740,7 +741,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="grabberpidinit.vi" Type="VI" URL="../grabberpidinit.vi"/>
 			<Item Name="TargetType.ctl" Type="VI" URL="../TargetType.ctl"/>
 			<Item Name="Calibration Helper.vi" Type="VI" URL="../Calibration Helper.vi"/>
 			<Item Name="Process Image for Target.vi" Type="VI" URL="../Process Image for Target.vi"/>
