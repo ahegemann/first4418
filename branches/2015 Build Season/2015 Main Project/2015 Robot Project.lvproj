@@ -126,6 +126,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Elevator.vi" Type="VI" URL="../Elevator.vi"/>
+		<Item Name="Robo Drive.vi" Type="VI" URL="../Robo Drive.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
