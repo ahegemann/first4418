@@ -663,15 +663,17 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Analog TestCode.vi" Type="VI" URL="../../../../../../../Public/Documents/FRC/Analog TestCode.vi"/>
-			<Item Name="Compressor TestCode.vi" Type="VI" URL="../../../../../../../Public/Documents/FRC/Compressor TestCode.vi"/>
-			<Item Name="DIO&apos;s TestCode.vi" Type="VI" URL="../../../../../../../Public/Documents/FRC/DIO&apos;s TestCode.vi"/>
-			<Item Name="Drive Motors TestCode.vi" Type="VI" URL="../../../../../../../Public/Documents/FRC/Drive Motors TestCode.vi"/>
-			<Item Name="Encoders TestCode.vi" Type="VI" URL="../../../../../../../Public/Documents/FRC/Encoders TestCode.vi"/>
+			<Item Name="Analog TestCode.vi" Type="VI" URL="../Analog TestCode.vi"/>
+			<Item Name="Compressor TestCode.vi" Type="VI" URL="../Compressor TestCode.vi"/>
+			<Item Name="DIO&apos;s TestCode.vi" Type="VI" URL="../DIO&apos;s TestCode.vi"/>
+			<Item Name="Drive Motors TestCode.vi" Type="VI" URL="../Drive Motors TestCode.vi"/>
+			<Item Name="Encoders TestCode.vi" Type="VI" URL="../Encoders TestCode.vi"/>
+			<Item Name="End Effector Motors TestCode.vi" Type="VI" URL="../End Effector Motors TestCode.vi"/>
+			<Item Name="Faom Gnome Motor TestCode.vi" Type="VI" URL="../Faom Gnome Motor TestCode.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Light Ring TestCode.vi" Type="VI" URL="../../../../../../../Public/Documents/FRC/Light Ring TestCode.vi"/>
+			<Item Name="Light Ring TestCode.vi" Type="VI" URL="../Light Ring TestCode.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -684,6 +686,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Winch Motors TestCode.vi" Type="VI" URL="../Winch Motors TestCode.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
