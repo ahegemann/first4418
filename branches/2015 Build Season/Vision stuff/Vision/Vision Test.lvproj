@@ -595,7 +595,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Vision.vi" Type="VI" URL="../../Vision.vi"/>
+			<Item Name="Vision.vi" Type="VI" URL="../Vision.vi"/>
 			<Item Name="Voltages.vi" Type="VI" URL="../../../Voltages.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
