@@ -33,7 +33,7 @@
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">roboRIO-4418.local</Property>
+		<Property Name="alias.value" Type="Str">10.44.18.20</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -120,6 +120,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="DrivePID.vi" Type="VI" URL="../DrivePID.vi"/>
 			<Item Name="Elevator.vi" Type="VI" URL="../Elevator.vi"/>
+			<Item Name="ElevatorPID.vi" Type="VI" URL="../ElevatorPID.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="PID test.vi" Type="VI" URL="../PID test.vi"/>
