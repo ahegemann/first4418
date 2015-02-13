@@ -119,10 +119,14 @@ AddOutputFilter chunkFilter
 			<Item Name="Ejector F-B.vi" Type="VI" URL="../Ejector F-B.vi"/>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
+			<Item Name="BottomStacking.ctl" Type="VI" URL="../BottomStacking.ctl"/>
+			<Item Name="BottomStacking.vi" Type="VI" URL="../BottomStacking.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="DrivePID.vi" Type="VI" URL="../DrivePID.vi"/>
 			<Item Name="ElevatorPID.vi" Type="VI" URL="../ElevatorPID.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+			<Item Name="InternalStacking.ctl" Type="VI" URL="../InternalStacking.ctl"/>
+			<Item Name="InternalStacking.vi" Type="VI" URL="../InternalStacking.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="PID test.vi" Type="VI" URL="../PID test.vi"/>
 			<Item Name="PIDstatemachinectl.ctl" Type="VI" URL="../PIDstatemachinectl.ctl"/>
@@ -132,15 +136,11 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Elevator.vi" Type="VI" URL="../Elevator.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			<Item Name="OpenLoop.vi" Type="VI" URL="../OpenLoop.vi"/>
+			<Item Name="Test Code.vi" Type="VI" URL="../Test Code.vi"/>
 			<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		</Item>
-		<Item Name="BottomStacking.ctl" Type="VI" URL="../BottomStacking.ctl"/>
-		<Item Name="BottomStacking.vi" Type="VI" URL="../BottomStacking.vi"/>
-		<Item Name="InternalStacking.ctl" Type="VI" URL="../InternalStacking.ctl"/>
-		<Item Name="InternalStacking.vi" Type="VI" URL="../InternalStacking.vi"/>
-		<Item Name="OpenLoop.vi" Type="VI" URL="../OpenLoop.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Test Code.vi" Type="VI" URL="../Test Code.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>

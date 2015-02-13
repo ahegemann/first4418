@@ -4,3 +4,18 @@
 4. be ready to run any motors that fabrication or electronics want tested
 5. get vision working, be able to output angle and distance of the tote
 6. get 2 cameras working
+
+
+
+7. test elevator PID on final robot (WITH SUPERVISION)
+8. test all limit switches and encoders on final robot
+9. test Internal Stacking.vi once all limit switches and encoders required have been tested
+10. finish bottom stacking.vi :
+	-lift to ej height and set down on stack will require referencing
+	 the control on the control panel that keeps track of how many totes
+	 we currently have. "tote count"
+	- timer.vi is fed true to reset it, then it'll feed out a time, 
+	 some test code for it is in teleop if you don't get it
+	- Don't test it without verifying it with robert first
+11. Test open loop ejector code (vi for it in teleop attached to unbundle buttons)
+
