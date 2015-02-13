@@ -1,0 +1,6 @@
+1. get SRX on test platform working
+2. ensure that ports on final robot match ports on test platform and in current code
+3. add Stephanie's test.vi to the main project 
+4. be ready to run any motors that fabrication or electronics want tested
+5. get vision working, be able to output angle and distance of the tote
+6. get 2 cameras working
