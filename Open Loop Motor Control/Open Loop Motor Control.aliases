@@ -1,9 +1,5 @@
 [My Computer]
-<<<<<<< .mine
-My Computer = "10.44.18.21"
-=======
-My Computer = "192.168.2.148"
->>>>>>> .r160
+My Computer = "192.168.2.140"
 
 [Target]
 Target = "10.44.18.20"
