@@ -134,6 +134,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		</Item>
+		<Item Name="BottomStacking.ctl" Type="VI" URL="../BottomStacking.ctl"/>
+		<Item Name="BottomStacking.vi" Type="VI" URL="../BottomStacking.vi"/>
 		<Item Name="InternalStacking.ctl" Type="VI" URL="../InternalStacking.ctl"/>
 		<Item Name="InternalStacking.vi" Type="VI" URL="../InternalStacking.vi"/>
 		<Item Name="OpenLoop.vi" Type="VI" URL="../OpenLoop.vi"/>
