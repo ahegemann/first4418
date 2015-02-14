@@ -1,9 +1,9 @@
 	1. get SRX on test platform working
 //(as far as I can tell)	2. ensure that ports on final robot match ports on test platform and in current code
-	3. add Stephanie's test.vi to the main project 
+//	3. add Stephanie's test.vi to the main project 
 //that's called open loop code...	4. be ready to run any motors that fabrication or electronics want tested
 //all now contained in vision.vi (just export to global var for the two)	5. get vision working, be able to output angle and distance of the tote
-	6. get 2 cameras working
+//	6. get 2 cameras working
 
 
 
@@ -11,10 +11,11 @@
 	8. test all limit switches and encoders on final robot
 //contains errors. The DB read/Write may not work but you hav other issues	9. test Internal Stacking.vi once all limit switches and encoders required have been tested
 //Done (needs testing and may contain similar errors to internal)	10. finish bottom stacking.vi :
-		-lift to ej height and set down on stack will require referencing
-		the control on the control panel that keeps track of how many totes
-		we currently have. "tote count"
-		- timer.vi is fed true to reset it, then it'll feed out a time, 
-		some test code for it is in teleop if you don't get it
+//		-lift to ej height and set down on stack will require referencing
+//		the control on the control panel that keeps track of how many totes
+//		we currently have. "tote count"
+//		- timer.vi is fed true to reset it, then it'll feed out a time, 
+//		some test code for it is in teleop if you don't get it
 		- Don't test it without verifying it with robert first
 11. Test open loop ejector code (vi for it in teleop attached to unbundle buttons)
+
