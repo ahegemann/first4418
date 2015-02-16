@@ -770,12 +770,14 @@ AddOutputFilter chunkFilter
 			<Item Name="DIO&apos;s TestCode.vi" Type="VI" URL="../../Black Box Test/DIO&apos;s TestCode.vi"/>
 			<Item Name="Drive Motors TestCode.vi" Type="VI" URL="../../Black Box Test/Drive Motors TestCode.vi"/>
 			<Item Name="Encoders TestCode.vi" Type="VI" URL="../../Black Box Test/Encoders TestCode.vi"/>
+			<Item Name="End Effector Motor Control.vi" Type="VI" URL="../../End Effector Motor Control.vi"/>
 			<Item Name="End Effector Motors TestCode.vi" Type="VI" URL="../../Black Box Test/End Effector Motors TestCode.vi"/>
 			<Item Name="Faom Gnome Motor TestCode.vi" Type="VI" URL="../../Black Box Test/Faom Gnome Motor TestCode.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Light Ring TestCode.vi" Type="VI" URL="../../Black Box Test/Light Ring TestCode.vi"/>
+			<Item Name="Motor Button Setpoint.vi" Type="VI" URL="../Motor Button Setpoint.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
