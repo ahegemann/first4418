@@ -764,6 +764,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Analog TestCode.vi" Type="VI" URL="../../Black Box Test/Analog TestCode.vi"/>
 			<Item Name="Autonomous State Machine.vi" Type="VI" URL="../Autonomous State Machine.vi"/>
+			<Item Name="Bottomlimit.vi" Type="VI" URL="../Bottomlimit.vi"/>
 			<Item Name="Compressor TestCode.vi" Type="VI" URL="../../Black Box Test/Compressor TestCode.vi"/>
 			<Item Name="DIO&apos;s TestCode.vi" Type="VI" URL="../../Black Box Test/DIO&apos;s TestCode.vi"/>
 			<Item Name="Drive Motors TestCode.vi" Type="VI" URL="../../Black Box Test/Drive Motors TestCode.vi"/>
