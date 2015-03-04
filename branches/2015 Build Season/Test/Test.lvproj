@@ -690,6 +690,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Robo Drive.vi" Type="VI" URL="../Robo Drive.vi"/>
 			<Item Name="Strict Typ Def Autonomous.ctl" Type="VI" URL="../Strict Typ Def Autonomous.ctl"/>
 			<Item Name="Test Typ Def.ctl" Type="VI" URL="../Test Typ Def.ctl"/>
 		</Item>
