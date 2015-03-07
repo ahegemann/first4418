@@ -790,6 +790,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="toggle.vi" Type="VI" URL="../toggle.vi"/>
+			<Item Name="tTote Autonomous.vi" Type="VI" URL="../tTote Autonomous.vi"/>
 			<Item Name="Winch Motors TestCode.vi" Type="VI" URL="../../Black Box Test/Winch Motors TestCode.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
