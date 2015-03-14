@@ -141,7 +141,10 @@ AddOutputFilter chunkFilter
 			<Item Name="Test Code.vi" Type="VI" URL="../Test Code.vi"/>
 			<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		</Item>
+		<Item Name="Elevator Offset AutoMatic.vi" Type="VI" URL="../Elevator Offset AutoMatic.vi"/>
 		<Item Name="ElevatorPIDFinalPlat.vi" Type="VI" URL="../ElevatorPIDFinalPlat.vi"/>
+		<Item Name="End Effector Motor Control.vi" Type="VI" URL="../../End Effector Motor Control.vi"/>
+		<Item Name="Ramp.vi" Type="VI" URL="../Ramp.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -769,7 +772,6 @@ AddOutputFilter chunkFilter
 			<Item Name="DIO&apos;s TestCode.vi" Type="VI" URL="../../Black Box Test/DIO&apos;s TestCode.vi"/>
 			<Item Name="Drive Motors TestCode.vi" Type="VI" URL="../../Black Box Test/Drive Motors TestCode.vi"/>
 			<Item Name="Encoders TestCode.vi" Type="VI" URL="../../Black Box Test/Encoders TestCode.vi"/>
-			<Item Name="End Effector Motor Control.vi" Type="VI" URL="../../End Effector Motor Control.vi"/>
 			<Item Name="End Effector Motors TestCode.vi" Type="VI" URL="../../Black Box Test/End Effector Motors TestCode.vi"/>
 			<Item Name="Faom Gnome Motor TestCode.vi" Type="VI" URL="../../Black Box Test/Faom Gnome Motor TestCode.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
@@ -811,6 +813,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
