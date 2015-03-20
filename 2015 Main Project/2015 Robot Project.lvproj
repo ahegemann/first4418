@@ -141,6 +141,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Test Code.vi" Type="VI" URL="../Test Code.vi"/>
 			<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		</Item>
+		<Item Name="Ejector Control.vi" Type="VI" URL="../Ejector Control.vi"/>
 		<Item Name="Elevator Offset AutoMatic.vi" Type="VI" URL="../Elevator Offset AutoMatic.vi"/>
 		<Item Name="ElevatorPIDFinalPlat.vi" Type="VI" URL="../ElevatorPIDFinalPlat.vi"/>
 		<Item Name="End Effector Motor Control.vi" Type="VI" URL="../../End Effector Motor Control.vi"/>
