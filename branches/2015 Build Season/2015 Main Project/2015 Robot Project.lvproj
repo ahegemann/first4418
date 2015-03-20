@@ -141,6 +141,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Test Code.vi" Type="VI" URL="../Test Code.vi"/>
 			<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		</Item>
+		<Item Name="Autonomous State Machine RC.vi" Type="VI" URL="../Autonomous State Machine RC.vi"/>
+		<Item Name="Autonomous State Machine Tote.vi" Type="VI" URL="../Autonomous State Machine Tote.vi"/>
 		<Item Name="Ejector Control.vi" Type="VI" URL="../Ejector Control.vi"/>
 		<Item Name="Elevator Offset AutoMatic.vi" Type="VI" URL="../Elevator Offset AutoMatic.vi"/>
 		<Item Name="ElevatorPIDFinalPlat.vi" Type="VI" URL="../ElevatorPIDFinalPlat.vi"/>
@@ -767,6 +769,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
 			<Item Name="Analog TestCode.vi" Type="VI" URL="../../Black Box Test/Analog TestCode.vi"/>
+			<Item Name="Autonomous State Machine Straight.vi" Type="VI" URL="../Autonomous State Machine Straight.vi"/>
 			<Item Name="Autonomous State Machine.vi" Type="VI" URL="../Autonomous State Machine.vi"/>
 			<Item Name="Bottomlimit.vi" Type="VI" URL="../Bottomlimit.vi"/>
 			<Item Name="Compressor TestCode.vi" Type="VI" URL="../../Black Box Test/Compressor TestCode.vi"/>
